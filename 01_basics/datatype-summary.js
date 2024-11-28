@@ -27,5 +27,6 @@ const fun=function() {
     console.log("hi");
 }
 
-console.log(typeof outsidetemp)
+console.log(typeof fun)
+// https://262.ecma-international.org/5.1/#sec-11.4.3
 
