@@ -2,14 +2,14 @@ let score=33
 let convert=String(score)
 // console.log(typeof convert)
 
-let name1="33abc"
-let convert1=Number(name1)
+// let name1="33abc"
+// let convert1=Number(name1)
 // console.log(typeof convert1)
 // console.log(convert1)
 
-// let num=NaN
-// let convert2=Boolean(num)
-// console.log(convert2)
+let num=undefined
+let convert2=Boolean(num)
+console.log(convert2)
 
 // let isLoggedIn = 0
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
@@ -27,4 +27,4 @@ let convert1=Number(name1)
 
 let i=0;
 console.log(i++)
-// console.log(++i)
+console.log(++i)
