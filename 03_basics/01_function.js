@@ -21,4 +21,29 @@ function userlog(username) {
      return `hi ${username}`
 }
 
-console.log(userlog("rudra"))
+// console.log(userlog("rudra"))
+
+function calculateCartPrice(val1,val2,...num1)
+{
+    return num1;
+}
+console.log(calculateCartPrice(10,20,100))
+
+const obj={
+    username:'rudra',
+    id:2
+}
+function o(anyobj)
+{
+    console.log(`hi ${anyobj.username} and id ${anyobj.id}`)
+}
+
+o(obj)
+
+const arr=[100,400,600]
+function a(array)
+{
+    return array[2];
+}
+console.log(a(arr))
+console.log(a([300,500,900]))
