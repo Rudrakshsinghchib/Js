@@ -20,7 +20,7 @@ function one() {
     two()
 }
 
-console.log(one())
+// console.log(one())
 
 if (true) {
     const username = "hitesh"
@@ -33,3 +33,16 @@ if (true) {
 
 // console.log(username);
 
+// functions now
+
+console.log(sum(2))
+function sum(num)
+{
+    return num+1;
+}
+num(8)     // you know why the error
+const num=function bas(num1)
+{
+    return num1+1;
+}
+// imp- in js variables are very powerful they can store literally anythinng
