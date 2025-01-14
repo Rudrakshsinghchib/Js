@@ -1,2 +1,2 @@
 # Js
-javaScript
+javaScript series, to help others and learn together
